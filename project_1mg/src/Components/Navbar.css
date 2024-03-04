@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.first_line{
+    width: 100wh;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid red;
+    justify-content: center;
+    padding-top: 5px;
+}
+#Main-container{
+    display: flex;
+    width: 100wh;
+    height: 60px;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding-top: 15px;
+    background-color: white;
+}
+#Main-container>div{
+    font-weight: bolder;
+    background-color: white;
+}
+.TataLogo{
+    width: 80px;
+    height: 30px;
+    margin-top: -5px;
+}
+.cart_icon{
+    width: 59px;
+    height: 60px;
+}
+.labtest:hover,.consult:hover,.cancer_care:hover,.aayurveda:hover,.care-plan:hover{
+    color: red;
+}
+#secon_nav{
+    display: flex;
+    border: 1px solid gray;
+    width: 100wh;
+    height: 60px;
+    padding-top: 15px;
+    background-color: white;
+
+}
+
+.serchMap{
+    background-color: rgb(241,244,246);
+    width: 200px;
+    height: 30px;
+    border: none;
+    font-weight: bolder;
+    color: black;
+    /* margin-left: 30px; */
+}
+.location_icon{
+    margin-left: 30px;
+    color: black;
+}
+.search_bar{
+    width: 600px;
+    height: 30px;
+    margin-left: 3px;
+    background-color: rgb(241,244,246);
+    border: none;
+    /* border: 1px solid red; */
+    padding-left: 10px;
+   
+}
+.quiq_buy{
+    margin-left: 50px;
+    color: gray;
+    padding-top: 5px;
+}
+#third_nav{
+    display: flex;
+    /* border: 1px solid red ; */
+    height: 40px;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: white;
+}
+#third_nav>div{
+    font-size: 15px;
+    
+    
+}
+.select_1{
+    border: none;
+}

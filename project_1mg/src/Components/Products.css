@@ -1,0 +1,29 @@
+#main_CARD{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+}
+#CARD{
+    
+    height:auto;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#CARD>div{
+    display: flex;
+    flex-direction: column;
+}
+#CARD>div:nth-child(2){
+    /* border: 1px solid red; */
+
+}
+#CARD>div>div:nth-child(1){
+/* border: 1px solid red; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+

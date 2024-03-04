@@ -1,0 +1,16 @@
+.foot_cont{
+    /* border: 1px solid red; */
+    background-color: white;
+    padding-top: 30px;
+}
+.main_cont{
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid red; */
+    height: 150px;
+    display:  flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    font-size: 30px;
+    
+}
